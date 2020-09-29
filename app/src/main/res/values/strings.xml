@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android UI</string>
+    <string-array name="android_dropdown_arrays">
+        <item>Teknik Informatika</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Kimia</item>
+    </string-array>
+</resources>
