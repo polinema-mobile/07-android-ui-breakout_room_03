@@ -49,7 +49,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edtNama" />
 
         <EditText
-            android:id="@+id/editTextDate"
+            android:id="@+id/edtTglLahir"
             android:layout_width="383dp"
             android:layout_height="47dp"
             android:layout_marginStart="16dp"
@@ -63,7 +63,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edtNim" />
 
         <RadioGroup
-            android:id="@+id/jenisKelamin"
+            android:id="@+id/rdJenisKelamin"
             android:layout_width="384dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -72,7 +72,7 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextDate">
+            app:layout_constraintTop_toBottomOf="@+id/edtTglLahir">
 
             <RadioButton
                 android:id="@+id/radioLakiLaki"
@@ -81,14 +81,14 @@
                 android:text="LakiLaki" />
 
             <RadioButton
-                android:id="@+id/radioperempuan"
+                android:id="@+id/radioPerempuan"
                 android:layout_width="196dp"
                 android:layout_height="50dp"
                 android:text="Perempuan" />
         </RadioGroup>
 
         <Spinner
-            android:id="@+id/jurusan"
+            android:id="@+id/spinJurusan"
             android:layout_width="0dp"
             android:layout_height="41dp"
             android:layout_marginStart="16dp"
@@ -97,10 +97,10 @@
             android:entries="@array/android_dropdown_arrays"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jenisKelamin" />
+            app:layout_constraintTop_toBottomOf="@+id/rdJenisKelamin" />
 
         <Button
-            android:id="@+id/btnSumbit"
+            android:id="@+id/btnSimpan"
             android:layout_width="380dp"
             android:layout_height="64dp"
             android:layout_marginStart="16dp"
@@ -109,7 +109,7 @@
             android:text="Simpan Data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jurusan" />
+            app:layout_constraintTop_toBottomOf="@+id/spinJurusan" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
